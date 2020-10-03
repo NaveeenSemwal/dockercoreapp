@@ -1,0 +1,27 @@
+version: '3.4'
+
+networks:
+  blogapp-network:
+
+services:
+  dockerdb:
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    environment:
+       ACCEPT_EULA: "Y"
+       SA_PASSWORD: "Pa55word2019"
+    ports:
+      - "1433:1433"
+    networks:
+      - blogapp-network
+  dockerapi:
+    image: aspnetdocker/dockerapp:v1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - dockerdb
+    networks:
+      - blogapp-network
+

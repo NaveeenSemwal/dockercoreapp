@@ -1,0 +1,25 @@
+https://www.youtube.com/watch?v=f0lMGPB10bM&t=1382s
+
+https://www.youtube.com/watch?v=aMQKILoOoqw
+
+https://www.michaelcrump.net/part6-docker/
+
+https://devconnected.com/docker-exec-command-with-examples/
+
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-3.1#:~:text=%20The%20Visual%20Studio%20Container%20Tools%20add%20a,read%20by%20Docker%20Compose%2C%20with%20configuration...%20More%20
+
+https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash
+
+https://owendavies.net/articles/docker-sql-server-local-development/#:~:text=%20Using%20Docker%20for%20local%20SQL%20Server%20development,remember%2Ftype%20all%20of%20these%20parameters%20each...%20More%20
+
+
+https://www.hostinger.com/tutorials/docker-remove-all-images-tutorial/#:~:text=How%20to%20Remove%20All%20Images%20in%20Docker%201,your%20VPS%20using%20SSH.%20...%203%20Conclusion.%20
+
+azureuser
+semwal@12345
+
+
+Issue : https://github.com/dotnet/core/issues/2448 
+
+
+Azure container : http://dockerapi.centralindia.azurecontainer.io/weatherforecast
